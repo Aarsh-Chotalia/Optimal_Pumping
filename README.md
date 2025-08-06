@@ -53,7 +53,7 @@ Note that fig2.m uses the data file 'd2.mat' contains simulation result for st=1
 
 - MATLAB R2020 or newer (recommended)
 - Signal Processing Toolbox
-- Access to all '.mat` files either provided in this repository or genrerated after running `Code.m'.
+- Access to all `.mat' files either provided in this repository or genrerated after running `Code.m'.
 
 
 
