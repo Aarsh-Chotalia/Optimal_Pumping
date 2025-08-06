@@ -1,11 +1,11 @@
-function [dydt] = odejr(t,y,e0,v0,r,A,B,a,b,dlta,etas,zta,C,Fs,tiw)
+function [dydt] = odejr(t,y,e0,v0,r,A,B,a,b,dlta,etas,zta,C,Fs,p_val)
 C1 = C;
 C2 = 0.8*C1;
 C3 = 0.25*C1;
 C4 = 0.25*C1;
 % floor(t*1000);
-temp = tiw(1+floor(t*Fs*4));
-eta=etas(1+floor(t*Fs*4));
+temp = p_val(1+floor(t*Fs));
+eta=etas(1+floor(t*Fs));
 
 dydt = zeros(7,1);
 dydt(1) = y(4);
