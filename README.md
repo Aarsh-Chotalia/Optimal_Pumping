@@ -36,7 +36,7 @@ These files contain simulation results for various values of shuffling times 'st
 | st5.mat      | Simulation result for st = 5     |
 | st10.mat     | Simulation result for st = 10    |
 
-Additionally `d2.mat' contains simulation result for 'st=1' but with 'Nd=101' (instead of 21) for finer resolution to be used in Figure 2.
+Additionally `d2.mat` contains simulation result for 'st=1' but with 'Nd=101' (instead of 21) for finer resolution to be used in Figure 2.
 These files can be loaded using 'load('filename.mat')' in MATLAB.
 
 ## How to Run
