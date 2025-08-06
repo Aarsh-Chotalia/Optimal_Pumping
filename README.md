@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project contains MATLAB code and `.mat` data files for simulations involving optimal energy pumping in an entrained neural (JR) system by frequency shuffling.
+This project contains MATLAB code and `.mat` data files (generated) for simulations involving optimal energy pumping in an entrained neural (JR) system by frequency shuffling.
 
 ## File Structure
 
 ### MATLAB Scripts
 
 - **Code.m**  
-  Main script to run the simulations and process results.
+  Main script to run the simulations and generate.
 
 - **odejr.m**  
   Contains the ODE definitions of Jansen-Rit model with a stimulus.
@@ -41,15 +41,17 @@ These files can be loaded using `load('filename.mat')` in MATLAB.
 ## How to Run
 
 1. Open `Code.m` in MATLAB.
-2. Ensure all `.mat` files and dependent scripts are in the same directory.
-3. Run the script or individual cells to execute the analysis and plotting.
-4. Use `fig3_with_error.m` to reproduce the final plot with error visualization.
+2. Ensure `odejr.m' is in the same directory.
+3. Run `Code.m' --> will take \approx 50 hours to run the model (Depends on the processor) and generate the data.
+4. Alternatively, use the `.mat' data provided in this repository and proceed to the next step.
+5. Use `fig3_with_error.m` to reproduce the final plot (Figure3) with error visualization.
+6. 
 
 ## Requirements
 
 - MATLAB R2020 or newer (recommended)
 - Signal Processing Toolbox
-- Access to all `.mat` files provided in this repository
+- Access to all `.mat` files either provided in this repository or genrerated after running `Code.m'.
 
 
 
