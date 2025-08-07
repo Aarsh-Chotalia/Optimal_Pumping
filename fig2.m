@@ -1,5 +1,5 @@
 % Load data
-load("st1.mat");
+load("d2.mat");
 
 % Extract variables
 x = delta_f_array;
@@ -49,3 +49,4 @@ ylim([min(y_lower)-0.05*range(y_lower), max(y_upper)+0.05*range(y_upper)]);
 % Save figure
 print('energy_vs_deltaf_vline','-dpng','-r300');  % High-res PNG
 % print('energy_vs_deltaf_vline','-dpdf','-r300');  % Vector-quality PDF
+
